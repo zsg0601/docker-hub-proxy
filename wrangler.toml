@@ -1,0 +1,8 @@
+# 配置Cloudflare Pages，跳过不必要的部署流程
+name = "docker-hub-proxy"
+type = "pages"
+compatibility_date = "2025-12-29"
+
+[pages]
+# 指定Functions目录，无需额外构建
+functions_dir = "functions"
